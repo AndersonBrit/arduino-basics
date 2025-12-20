@@ -1,1 +1,13 @@
+# Arduino
+libraries/
 
+# VS Code
+.vscode/
+
+# Ficheiros temporários
+*.log
+*.tmp
+
+# Windows
+Thumbs.db
+Desktop.ini
