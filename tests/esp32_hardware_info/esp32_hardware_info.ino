@@ -42,13 +42,16 @@ void setup() {
   Serial.print("Bluetooth: ");
   Serial.println("Disponível");
 
-  WiFi.mode(WIFI_MODE_STA);   // Inicializa Wi-Fi
-  WiFi.disconnect(true);      // Força reset da interface Wi-Fi
-  delay(100);                 // Pequeno delay para estabilizar
-  Serial.print("Endereço MAC: ");
+  WiFi.mode(WIFI_MODE_STA);       // Inicializa Wi-Fi
+  WiFi.begin("NOWO-2ECA4", "64Sw3kccmWmT");
+  Serial.print("A conectar à Wi-Fi");
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("\nConectado!");
+  Serial.print("Endereço MAC real: ");
   Serial.println(WiFi.macAddress());
-
-  Serial.println("Pinos GPIO disponíveis: 2, 4, 5, 12, 13, 14, 15, 18, 19, 21, 22, 23, 25, 26, 27, 32, 33");
 
   Serial.println("================================");
 }
@@ -56,7 +59,6 @@ void setup() {
 void loop() {
   delay(5000); // repete a cada 5 segundos
   Serial.println("===== INFO ATUALIZADA =====");
-  Serial.print("RAM livre: "); Serial.println(ESP.getFreeHeap());
-  float voltage = (float)analogRead(35) / 4095 * 3.3;
-  Serial.print("Tensão VCC aproximada: "); Serial.println(voltage);
+  Serial.print("RAM livre: ");
+  Serial.println(ESP.getFreeHeap());
 }
