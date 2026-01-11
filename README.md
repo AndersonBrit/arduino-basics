@@ -65,16 +65,24 @@ arduino-basics/
 ├── tests/
 │   │
 │   ├── display_hardware_info/  
-│   │   └── display_hardware_info.ino
+│       ├── media/
+│   │   ├── display_hardware_info.ino
+│   │   └── README.md
 │   │
 │   ├── hardware_info/    
-│   │   └── hardware_info.ino
+│       ├── media/
+│   │   ├── hardware_info.ino
+│   │   └── README.md
 │   │
 │   ├── scan_diplay_tft/  
-│   │   └── scan_diplay_tft.ino   
+│       ├── media/
+│   │   ├── scan_diplay_tft.ino   
+│   │   └── README.md
 │   │
 │   └── scan_display_i2c/ 
-│       └── scan_display_i2c.ino
+│       ├── media/
+│       ├── scan_display_i2c.ino
+│       └── README.md
 │
 ├── .gitignore               
 ├── LICENSE                   
