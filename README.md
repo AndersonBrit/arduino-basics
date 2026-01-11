@@ -101,7 +101,7 @@ arduino-basics/
 
 ## 🖼 Recursos / Documentação
 
-Todos os diagramas, fotos ou documentação relacionados aos exercícios devem ser guardados na pasta `docs/`.
+Todos os diagramas, fotos ou documentação relacionados aos exercícios estam guardados na pasta `docs/` e na pasta `media/` do respectivo exercicio.
 Exemplo: esquemas de ligação de LEDs ou botões.
 
 ---
