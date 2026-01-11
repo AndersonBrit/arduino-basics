@@ -62,6 +62,20 @@ arduino-basics/
 │       ├── sensor_piezo_led.ino
 │       └── README.md
 │
+├── tests/
+│   │
+│   ├── display_hardware_info/  
+│   │   └── display_hardware_info.ino
+│   │
+│   ├── hardware_info/    
+│   │   └── hardware_info.ino
+│   │
+│   ├── scan_diplay_tft/  
+│   │   └── scan_diplay_tft.ino   
+│   │
+│   └── scan_display_i2c/ 
+│       └── scan_display_i2c.ino
+│
 ├── .gitignore               
 ├── LICENSE                   
 └── README.md                 
