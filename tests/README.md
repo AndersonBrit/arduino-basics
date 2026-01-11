@@ -10,7 +10,7 @@ Os testes são simples, focados em **experimentação e aprendizagem**, sem nece
 ## Estrutura dos Testes
 Cada teste está em uma subpasta com:  
 - Código `.ino`  
-- Pasta `media/` (se houver imagens)  
+- Pasta `media/` (com imagens e videos se houver)  
 - `README.md` individual (explicando o teste, funcionamento e observações)
 
 ---
